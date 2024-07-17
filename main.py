@@ -1,8 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 
-#input("Which year do you want to travel to? Type the date in this format YYYY-MM-DD")
-
 response = requests.get("https://www.billboard.com/charts/hot-100/2000-08-19/")
 webpage = response.text
 
